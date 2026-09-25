@@ -51,6 +51,10 @@ The current application uses the half-scale equation in `main.c`. If the thresho
 
 The included `concept.jpg` shows the RC sensor, resistor, isolated plates, comparator, DAC reference, PWM excitation, delayed comparator signal, and timing relationship.
 
+![Capacitance measurement system concept diagram](concept.jpg)
+
+*Figure 1. RC capacitance measurement architecture and timing signals.*
+
 ## Implemented firmware configuration
 
 The current values are defined in `Core/Src/main.c` and should be treated as starting points for the target board and circuit:
